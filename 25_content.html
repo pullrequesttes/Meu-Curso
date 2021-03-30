@@ -1,0 +1,67 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+
+
+<html lang="pt-br">
+     <head>    
+         <title> estrutura básica
+         </title>
+          <meta charset="utf-8">
+         <meta name="author" content="Samuel">
+         <meta name="description" content="Estrutura Básica para próximos exercícios">
+         <meta name="keywords" content="Estrutura Básica, Estrutura, Básica">
+
+
+         <style>
+             div{
+            
+             border: 3px solid red;
+             padding: 25px;
+             position: relative;
+             margin: 25px;
+             }
+             div:before{
+                 content: "texto before: ";
+                 background-color: #ccc;
+             }
+             div:after{
+                content: "";
+                background: red;
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+             }  
+         </style>
+
+
+    </head>    
+    <body>
+            <div> texto principal da div</div>
+                    <hr>
+                <article class=">
+                    <h3>
+                        Título
+                    </h3>
+                    <p>paragrafo <a href="#">Apenas um link com <b>negrito</b></b></a></p>
+                    <p>paragrafo <a href="#">Apenas um link com <b>negrito</b></b></a></p>
+                    <p>paragrafo <a href="#">Apenas um link com <b>negrito</b></b></a></p>
+                    </article>
+                    
+                    <ul>
+                        
+                        <li> <a href="#">Link falso</a></li>
+                        <li> <a href="#">Link falso</a></li>
+                        <li> <a href="http://serfrontend.com" target="_blank">Link externo</a></li>
+                        <li> <a href="24_transition.html" title="veja exercicio anterior"> Link interno</a></li>
+                        <li> <a href="http://serfrontend.com/qq.pdf">Link externo</a></li>
+                        <li> <a href="24_transition.html" title="veja exercicio anterior"> Link interno</a></li>
+                    </ul>
+       
+       
+        </body>
+
+</html> 
+

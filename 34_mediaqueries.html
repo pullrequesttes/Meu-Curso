@@ -1,0 +1,80 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+
+
+<html lang="pt-br">
+    <head>    
+        <title> estrutura básica
+        </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Samuel">
+        <meta name="description" content="Estrutura Básica para próximos exercícios">
+        <meta name="keywords" content="Estrutura Básica, Estrutura, Básica">
+        
+        <meta name="viewport" content="width=device-width">
+        
+        <style>
+         body{
+             background: yellow;
+             font-size: 16px;
+         }
+        
+         .teste{
+             background: red;
+             width: 320px;
+             height: 50px;
+         }
+
+         .container{
+             background: white;
+             padding: 15px;
+             margin-bottom: 0;
+             font-size: 24px;
+         }
+         
+         .container div{
+             background: #ccc;
+             margin-bottom: 15px;
+             height: 150px;
+             font-size: 22px;
+
+         }
+
+        @media screen and (min-width: 400px) {
+          body{
+              background: orange;
+          }           
+
+          .container div{
+              width: calc(50% - 30px);
+              float: left;
+              margin: 15px;
+              
+          }
+        }
+
+
+        .clearfix::after{
+            content: " ";
+            display: block;
+            clear: both;
+        }
+
+     </style>
+         
+    </head>    
+    <body> 
+        <h1>exemplo de media queries</h1>
+
+        <p>Paragrafo qualquer</p>
+
+        <!-- <div class="teste"></div> -->
+
+        <div class="container clearfix">
+            <div> div1 </div>    
+            <div> div2 </div>    
+    </div>
+
+        </body>
+</html> 
+
